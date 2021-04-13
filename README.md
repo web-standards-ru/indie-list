@@ -16,6 +16,7 @@
 
 - [CSS mind blog](https://ariarzer.dev/)
 - [CSS-live](https://css-live.ru/), [RSS](https://css-live.ru/feed/)
+- [Defront](https://defront.ru/), [RSS](https://defront.ru/feed/feed.xml)
 - [For Web](https://forweb.dev/ru/blog), [RSS](https://forweb.dev/ru/blog/feed.xml)
 - [Блог о веб-разработке](https://amorgunov.com/), [RSS](https://amorgunov.com/feed/feed.xml)
 - [Веб-стандарты](https://web-standards.ru/articles/), [RSS](https://web-standards.ru/articles/feed/)
