@@ -15,11 +15,11 @@
 ## Русскоязычные
 
 - [CSS-live](https://css-live.ru/), [RSS](https://css-live.ru/feed/)
-- [Веб-стандарты](https://web-standards.ru/articles/), [RSS](https://web-standards.ru/articles/feed/)
-- [Саша Беспоясов](https://bespoyasov.ru/blog/), [RSS](https://bespoyasov.ru/rss.xml)
-- [Марат Таналин](https://tanalin.com/blog/), [RSS](https://tanalin.com/blog/feeds/rss/)
-- [Это блог](https://isqua.ru/blog/), [RSS](https://isqua.ru/blog/rss/)
 - [Defront](https://defront.ru/), [RSS](https://defront.ru/feed/feed.xml)
+- [Веб-стандарты](https://web-standards.ru/articles/), [RSS](https://web-standards.ru/articles/feed/)
+- [Марат Таналин](https://tanalin.com/blog/), [RSS](https://tanalin.com/blog/feeds/rss/)
+- [Саша Беспоясов](https://bespoyasov.ru/blog/), [RSS](https://bespoyasov.ru/rss.xml)
+- [Это блог](https://isqua.ru/blog/), [RSS](https://isqua.ru/blog/rss/)
 
 ## Англоязычные
 
