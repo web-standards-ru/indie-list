@@ -35,3 +35,8 @@
 - [Lea Verou](https://lea.verou.me/), [RSS](https://lea.verou.me/feed/)
 - [Nik Mostovoy](https://xnim.me/blog), [RSS](https://xnim.me/atom)
 - [Sara Soueidan](https://www.sarasoueidan.com/blog/), [RSS](https://www.sarasoueidan.com/blog/index.xml)
+- [Ahmad Shadeed](https://ishadeed.com/), [RSS](https://ishadeed.com/feed.xml)
+- [Kent C. Dodds](https://kentcdodds.com/), [RSS](https://kentcdodds.com/blog/rss.xml)
+- [Michelle Barker](https://css-irl.info/), [RSS](https://css-irl.info/rss.xml)
+- [Dan Abramov](https://overreacted.io/), [RSS](https://overreacted.io/rss.xml)
+- [Joshua Comeau](https://www.joshwcomeau.com/), [RSS](https://www.joshwcomeau.com/rss.xml)
