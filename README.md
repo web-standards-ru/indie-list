@@ -19,6 +19,7 @@
 - [Саша Беспоясов](https://bespoyasov.ru/blog/), [RSS](https://bespoyasov.ru/rss.xml)
 - [Марат Таналин](https://tanalin.com/blog/), [RSS](https://tanalin.com/blog/feeds/rss/)
 - [Это блог](https://isqua.ru/blog/), [RSS](https://isqua.ru/blog/rss/)
+- [Defront](https://defront.ru/), [RSS](https://defront.ru/feed/feed.xml)
 
 ## Англоязычные
 
