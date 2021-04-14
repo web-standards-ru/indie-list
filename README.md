@@ -38,7 +38,7 @@
 - [De Voorhoede](https://www.voorhoede.nl/en/blog/), [RSS](https://www.voorhoede.nl/blog-feed.xml)
 - [Dev Tips](https://mefody.dev/), [RSS](https://mefody.dev/feed/rss.xml)
 - [Dmitri Pavlutin](https://dmitripavlutin.com/), [RSS](https://dmitripavlutin.com/rss.xml)
-- [Dwayne Lafleur](https://www.lafoo.com/)
+- [Dwayne Lafleur](https://www.lafoo.com/), [RSS](https://www.lafoo.com/feed/)
 - [Eric Meyer](https://meyerweb.com/), [RSS](https://meyerweb.com/eric/thoughts/feed/)
 - [Jake Archibald](https://jakearchibald.com/), [RSS](https://jakearchibald.com/posts.rss)
 - [Jim Nielsen](https://blog.jim-nielsen.com/), [RSS](https://blog.jim-nielsen.com/feed.xml)
