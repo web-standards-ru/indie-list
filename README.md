@@ -33,7 +33,6 @@
 - [Bruce Lawson](https://www.brucelawson.co.uk/), [RSS](https://www.brucelawson.co.uk/feed/)
 - [Chen Hui Jing](https://chenhuijing.com/), [RSS](https://chenhuijing.com/feed.xml)
 - [Chris Ferdinandi](https://gomakethings.com/articles/), [RSS](https://gomakethings.com/feed/index.xml)
-- [CSS Auditors](https://css-auditors.com/)
 - [CSS-Tricks](https://css-tricks.com/), [RSS](https://css-tricks.com/feed/)
 - [Dan Abramov](https://overreacted.io/), [RSS](https://overreacted.io/rss.xml)
 - [De Voorhoede](https://www.voorhoede.nl/en/blog/), [RSS](https://www.voorhoede.nl/blog-feed.xml)
