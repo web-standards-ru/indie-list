@@ -27,11 +27,9 @@
 
 ## Англоязычные
 
-
 - [Addy Osmani](https://addyosmani.com/), [RSS](https://addyosmani.com/feed.xml)
 - [Ahmad Shadeed](https://ishadeed.com/), [RSS](https://ishadeed.com/feed.xml)
 - [Alex Russell](https://infrequently.org/), [RSS](https://infrequently.org/feed/)
-- [Alexander Surma](https://surma.dev/), [RSS](https://surma.dev/index.xml)
 - [Ben Frain](https://benfrain.com/blog/), [RSS](https://benfrain.com/feed)
 - [Bruce Lawson](https://www.brucelawson.co.uk/), [RSS](https://www.brucelawson.co.uk/feed/)
 - [Chen Hui Jing](https://chenhuijing.com/), [RSS](https://chenhuijing.com/feed.xml)
