@@ -69,4 +69,4 @@
 - [Tune The Web](https://www.tunetheweb.com/blog/), [RSS](https://www.tunetheweb.com/rss.xml)
 - [Una Kravets](https://una.im/), [RSS](https://una.im/feed.xml)
 - [Web Performance Calendar](https://calendar.perfplanet.com/), [RSS](https://feed.perfplanet.com/rss.xml)
-- [Web.Dev](https://web.dev/blog/)
+- [Web.Dev](https://web.dev/blog/), [RSS](https://web.dev/feed.xml)
