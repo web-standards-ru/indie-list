@@ -27,9 +27,12 @@
 
 ## Англоязычные
 
+- [Addy Osmani](https://addyosmani.com/), [RSS](https://addyosmani.com/feed.xml)
 - [Ahmad Shadeed](https://ishadeed.com/), [RSS](https://ishadeed.com/feed.xml)
+- [Alexander Surma](https://surma.dev/), [RSS](https://surma.dev/index.xml)
 - [Ben Frain](https://benfrain.com/blog/), [RSS](https://benfrain.com/feed)
 - [Bruce Lawson](https://www.brucelawson.co.uk/), [RSS](https://www.brucelawson.co.uk/feed/)
+- [Chen Hui Jing](https://chenhuijing.com/), [RSS](https://chenhuijing.com/feed.xml)
 - [Dan Abramov](https://overreacted.io/), [RSS](https://overreacted.io/rss.xml)
 - [Dev Tips](https://mefody.dev/), [RSS](https://mefody.dev/feed/rss.xml)
 - [Eric Meyer](https://meyerweb.com/), [RSS](https://meyerweb.com/eric/thoughts/feed/)
@@ -39,4 +42,7 @@
 - [Lea Verou](https://lea.verou.me/), [RSS](https://lea.verou.me/feed/)
 - [Michelle Barker](https://css-irl.info/), [RSS](https://css-irl.info/rss.xml)
 - [Nik Mostovoy](https://xnim.me/blog), [RSS](https://xnim.me/atom)
+- [Rachel Andrew](https://rachelandrew.co.uk/)
 - [Sara Soueidan](https://www.sarasoueidan.com/blog/), [RSS](https://www.sarasoueidan.com/blog/index.xml)
+- [Una Kravets](https://una.im/), [RSS](https://una.im/feed.xml)
+- [Zach Leatherman](https://www.zachleat.com/), [RSS](https://www.zachleat.com/web/feed/)
