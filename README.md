@@ -27,6 +27,7 @@
 
 ## Англоязычные
 
+- [Addy Osmani](https://addyosmani.com/), [RSS](https://addyosmani.com/feed.xml)
 - [Ahmad Shadeed](https://ishadeed.com/), [RSS](https://ishadeed.com/feed.xml)
 - [Alex Russell](https://infrequently.org/), [RSS](https://infrequently.org/feed/)
 - [Ben Frain](https://benfrain.com/blog/), [RSS](https://benfrain.com/feed)
@@ -40,10 +41,10 @@
 - [Dmitri Pavlutin](https://dmitripavlutin.com/), [RSS](https://dmitripavlutin.com/rss.xml)
 - [Dwayne Lafleur](https://www.lafoo.com/), [RSS](https://www.lafoo.com/feed/)
 - [Eric Meyer](https://meyerweb.com/), [RSS](https://meyerweb.com/eric/thoughts/feed/)
+- [Hidde de Vries](https://hiddedevries.nl/en/blog/), [RSS](https://hiddedevries.nl/rss/full/)
 - [Jake Archibald](https://jakearchibald.com/), [RSS](https://jakearchibald.com/posts.rss)
 - [Jim Nielsen](https://blog.jim-nielsen.com/), [RSS](https://blog.jim-nielsen.com/feed.xml)
 - [Joshua Comeau](https://www.joshwcomeau.com/), [RSS](https://www.joshwcomeau.com/rss.xml)
-- [Hidde de Vries](https://hiddedevries.nl/en/blog/), [RSS](https://hiddedevries.nl/rss/full/)
 - [Kent C. Dodds](https://kentcdodds.com/), [RSS](https://kentcdodds.com/blog/rss.xml)
 - [Kitty Giraudel](https://kittygiraudel.com/blog/), [RSS](https://kittygiraudel.com/rss)
 - [Lea Verou](https://lea.verou.me/), [RSS](https://lea.verou.me/feed/)
@@ -68,3 +69,4 @@
 - [Una Kravets](https://una.im/), [RSS](https://una.im/feed.xml)
 - [Web Performance Calendar](https://calendar.perfplanet.com/), [RSS](https://feed.perfplanet.com/rss.xml)
 - [Web.Dev](https://web.dev/blog/), [RSS](https://web.dev/feed.xml)
+- [Zach Leatherman](https://www.zachleat.com/), [RSS](https://www.zachleat.com/web/feed/)
