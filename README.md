@@ -36,7 +36,6 @@
 - [CSS-Tricks](https://css-tricks.com/), [RSS](https://css-tricks.com/feed/)
 - [Dan Abramov](https://overreacted.io/), [RSS](https://overreacted.io/rss.xml)
 - [De Voorhoede](https://www.voorhoede.nl/en/blog/), [RSS](https://www.voorhoede.nl/blog-feed.xml)
-- [DEV Community](https://dev.to/)
 - [Dev Tips](https://mefody.dev/), [RSS](https://mefody.dev/feed/rss.xml)
 - [Dmitri Pavlutin](https://dmitripavlutin.com/), [RSS](https://dmitripavlutin.com/rss.xml)
 - [Dwayne Lafleur](https://www.lafoo.com/)
