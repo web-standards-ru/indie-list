@@ -17,13 +17,13 @@ jobs:
     - run: npm ci
     - name: Build
       run: npm run build
+    - name: Get current date
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y.%m.%d')"
 
   release:
     need: build
     runs-on: ubuntu-latest
-    - name: Get current date
-      id: date
-      run: echo "::set-output name=date::$(date +'%Y.%m.%d')"
     - name: Release
       uses: softprops/action-gh-release@v1
       with:
@@ -35,9 +35,6 @@ jobs:
   readme:
     need: build
     runs-on: ubuntu-latest
-    - name: Get current date
-      id: date
-      run: echo "::set-output name=date::$(date +'%Y.%m.%d')"
     - uses: EndBug/add-and-commit@v7
       add: README.md
       message: 'Update at ${{ steps.date.outputs.date }}'
