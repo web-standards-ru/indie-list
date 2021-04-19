@@ -1,5 +1,6 @@
 ---
 permalink: README.md
+date: Last Modified
 ---
 # Список инди-сайтов по фронтенду
 
@@ -33,3 +34,6 @@ description: description (optional)
 {% for feed in collections.feeds | lang('en') %}
 - [{{ feed.name }}]({{ feed.url }}), [RSS]({{ feed.rss }})
 {% endfor %}
+
+## [OPML (что это такое?)](https://ru.wikipedia.org/wiki/OPML)
+[Ссылка на OPML-файл]({{ pkg.repository.url | replace('.git', '') | replace('git+', '') }}/releases/download/v{{ page.date | dateFormat }}/feeds.opml)

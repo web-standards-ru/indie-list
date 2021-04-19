@@ -116,3 +116,6 @@ description: description (optional)
 
 - [Zach Leatherman](https://www.zachleat.com/), [RSS](https://www.zachleat.com/web/feed/)
 
+
+## [OPML (что это такое?)](https://ru.wikipedia.org/wiki/OPML)
+[Ссылка на OPML-файл](https://github.com/web-standards-ru/indie-list/releases/download/v2021.04.20/feeds.opml)

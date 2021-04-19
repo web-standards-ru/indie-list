@@ -9,6 +9,7 @@ const CURRENT_DIR = path.resolve('.');
 
 module.exports = eleventyConfig => {
   eleventyConfig.addFilter("lang", (obj, lang) => obj.filter(elem => elem.lang === lang));
+  eleventyConfig.addFilter("dateFormat", (d) => `${d.getFullYear()}.${('00' + (d.getMonth() + 1)).slice(-2)}.${d.getDate()}`);
 
   eleventyConfig.addCollection('feeds', function (collectionApi) {
     return fs.readdirSync(FEED_DIR).map(file => {
