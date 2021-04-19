@@ -1,0 +1,40 @@
+---
+permalink: /feeds.opml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+ <head>
+   <title>Список инди-сайтов сообщества "Веб-стандарты"</title>
+   <ownerName>web-standards</ownerName>
+ </head>
+ <body>
+   <outline text="Русскоязычные">
+    {% for feed in collections.feeds | lang('ru') %}
+    <outline
+      text="{{ feed.name }}"
+      lang="ru"
+      {% if feed.description %}
+      description="{{ feed.description }}"
+      {% endif %}
+      htmlUrl="{{ feed.url }}"
+      xmlUrl="{{ feed.rss }}"
+      type="rss"
+    />
+    {% endfor %}
+   </outline>
+   <outline text="Англоязычные">
+    {% for feed in collections.feeds | lang('en') %}
+    <outline
+      text="{{ feed.name }}"
+      lang="en"
+      {% if feed.description %}
+      description="{{ feed.description }}"
+      {% endif %}
+      htmlUrl="{{ feed.url }}"
+      xmlUrl="{{ feed.rss }}"
+      type="rss"
+    />
+    {% endfor %}
+   </outline>
+ </body>
+</opml>
