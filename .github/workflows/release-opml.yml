@@ -17,6 +17,10 @@ jobs:
     - run: npm ci
     - name: Build
       run: npm run build
+
+  release:
+    need: build
+    runs-on: ubuntu-latest
     - name: Get current date
       id: date
       run: echo "::set-output name=date::$(date +'%Y.%m.%d')"
@@ -28,3 +32,12 @@ jobs:
         files: feeds.opml
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  readme:
+    need: build
+    runs-on: ubuntu-latest
+    - name: Get current date
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y.%m.%d')"
+    - uses: EndBug/add-and-commit@v7
+      add: README.md
+      message: 'Update at ${{ steps.date.outputs.date }}'
