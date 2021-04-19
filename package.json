@@ -18,7 +18,6 @@
     "@11ty/eleventy": "^0.12.1",
     "html-minifier": "^4.0.0",
     "js-yaml": "^3.14.1",
-    "mv": "^2.1.1",
     "nunjucks": "^3.2.3"
   }
 }

@@ -1,26 +1,25 @@
 const yaml = require("js-yaml");
-var mv = require('mv');
 const htmlmin = require("html-minifier");
 const fs = require('fs-extra');
+const path = require('path');
 
-const FEED_DIR = 'feeds'
-const DEST_DIR = '_dest'
+const FEED_DIR = path.resolve('feeds');
+const DEST_DIR = path.resolve('_dest');
+const CURRENT_DIR = path.resolve('.');
 
 module.exports = eleventyConfig => {
   eleventyConfig.addFilter("lang", (obj, lang) => obj.filter(elem => elem.lang === lang));
 
   eleventyConfig.addCollection('feeds', function (collectionApi) {
     return fs.readdirSync(FEED_DIR).map(file => {
-      return yaml.safeLoad(fs.readFileSync(FEED_DIR + '/' + file));
+      return yaml.safeLoad(fs.readFileSync(path.join(FEED_DIR, file)));
     })
   });
 
   eleventyConfig.on('afterBuild', () => {
-    mv(DEST_DIR, '.', { mkdirp: false, clobber: false }, (err) => {
-      if (err) {
-        throw err;
-      }
-    });
+    for (let file of ['README.md', 'feeds.opml']) {
+      fs.moveSync(path.join(DEST_DIR, file), path.join(CURRENT_DIR, file), { overwrite: true });
+    }
   });
 
   eleventyConfig.addTransform("files-minifier", function (value, outputPath) {
@@ -53,8 +52,8 @@ module.exports = eleventyConfig => {
     templateFormats: ['njk'],
     dir: {
       input: 'src',
-      data: 'feeds',
-      output: '_dest'
+      data: FEED_DIR,
+      output: DEST_DIR
     }
 
   }
