@@ -22,19 +22,22 @@ jobs:
       run: echo "::set-output name=date::$(date +'%Y.%m.%d')"
 
   release:
-    need: build
+    needs: build
     runs-on: ubuntu-latest
-    - name: Release
-      uses: softprops/action-gh-release@v1
-      with:
-        name: 'Release at ${{ steps.date.outputs.date }}'
-        tag_name: 'v${{ steps.date.outputs.date }}'
-        files: feeds.opml
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: 'Release at ${{ steps.date.outputs.date }}'
+          tag_name: 'v${{ steps.date.outputs.date }}'
+          files: feeds.opml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   readme:
-    need: build
+    needs: build
     runs-on: ubuntu-latest
-    - uses: EndBug/add-and-commit@v7
-      add: README.md
-      message: 'Update at ${{ steps.date.outputs.date }}'
+    steps:
+      - uses: EndBug/add-and-commit@v7
+        with:
+          add: README.md
+          message: 'Update at ${{ steps.date.outputs.date }}'
