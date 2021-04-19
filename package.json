@@ -16,7 +16,6 @@
   "homepage": "https://github.com/web-standards-ru/indie-list#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "fs": "*",
     "html-minifier": "^4.0.0",
     "js-yaml": "^3.14.1",
     "mv": "^2.1.1",

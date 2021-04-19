@@ -1,7 +1,7 @@
 const yaml = require("js-yaml");
 var mv = require('mv');
 const htmlmin = require("html-minifier");
-const fs = require('fs');
+const fs = require('fs-extra');
 
 const FEED_DIR = 'feeds'
 const DEST_DIR = '_dest'
