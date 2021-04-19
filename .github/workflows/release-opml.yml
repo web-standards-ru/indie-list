@@ -18,11 +18,11 @@ jobs:
     - name: Build
       run: npm run build
     - name: Create artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          path: |
-            README.md
-            feeds.ompl
+      uses: actions/upload-artifact@v2
+      with:
+        path: |
+          README.md
+          feeds.ompl
     - name: Get current date
       id: date
       run: echo "::set-output name=date::$(date +'%Y.%m.%d')"
