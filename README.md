@@ -19,6 +19,7 @@
 - [Александр Моргунов](https://amorgunov.com/), [RSS](https://amorgunov.com/feed/feed.xml)
 - [Андрей Романов](https://forweb.dev/ru/blog), [RSS](https://forweb.dev/ru/blog/feed.xml)
 - [Марат Таналин](https://tanalin.com/blog/), [RSS](https://tanalin.com/blog/feeds/rss/)
+- [Виктор Павлов](https://www.master-web.info/), [RSS](http://feeds2.feedburner.com/master-web)
 - [Саша Беспоясов](https://bespoyasov.ru/blog/), [RSS](https://bespoyasov.ru/rss.xml)
 - [Саша Мышов](https://defront.ru/), [RSS](https://defront.ru/feed/feed.xml)
 - [София Валитова](https://ariarzer.dev/)
