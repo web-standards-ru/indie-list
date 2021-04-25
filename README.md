@@ -59,6 +59,7 @@
 - [Maximiliano Firtman](https://firt.dev/), [RSS](https://firt.dev/feed/feed.xml)
 - [Melanie Richards](https://melanie-richards.com/), [RSS](https://melanie-richards.com/feed.xml)
 - [Michelle Barker](https://css-irl.info/), [RSS](https://css-irl.info/rss.xml)
+- [Nicholas Zakas](https://humanwhocodes.com/), [RSS](https://humanwhocodes.com/feeds/all.xml)
 - [Nik Mostovoy](https://xnim.me/blog), [RSS](https://xnim.me/atom)
 - [Nikita Dubko](https://mefody.dev/), [RSS](https://mefody.dev/feed/rss.xml)
 - [Nikita Prokopov](https://tonsky.me/), [RSS](http://tonsky.me/blog/atom.xml)
