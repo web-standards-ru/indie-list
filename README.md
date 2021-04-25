@@ -62,6 +62,7 @@
 - [Nik Mostovoy](https://xnim.me/blog), [RSS](https://xnim.me/atom)
 - [Nikita Dubko](https://mefody.dev/), [RSS](https://mefody.dev/feed/rss.xml)
 - [Nikita Prokopov](https://tonsky.me/), [RSS](http://tonsky.me/blog/atom.xml)
+- [Nicholas Zakas](https://humanwhocodes.com/), [RSS](https://humanwhocodes.com/feeds/all.xml)
 - [Nolan Lawson](https://nolanlawson.com/), [RSS](https://nolanlawson.com/feed/)
 - [Rachel Andrew](https://rachelandrew.co.uk/archives/), [RSS](https://rachelandrew.co.uk/archives/rss.php)
 - [Reed Barger](https://reedbarger.com/), [RSS](https://reedbarger.com/rss/)
