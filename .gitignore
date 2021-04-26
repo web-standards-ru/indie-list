@@ -2,4 +2,3 @@ node_modules/
 .vscode/
 *.py
 _dest/
-feeds.opml
