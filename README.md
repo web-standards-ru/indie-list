@@ -118,4 +118,4 @@ description: description (optional)
 
 
 ## [OPML (что это такое?)](https://ru.wikipedia.org/wiki/OPML)
-[Ссылка на OPML-файл](https://github.com/web-standards-ru/indie-list/releases/download/v2021.04.20/feeds.opml)
+[Ссылка на OPML-файл](https://github.com/web-standards-ru/indie-list/releases/download/v2021.04.19/feeds.opml)
