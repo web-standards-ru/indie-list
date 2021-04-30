@@ -1,20 +1,9 @@
 {
-  "name": "indie-list",
-  "version": "1.0.0",
-  "description": "Инди — это _independent,_ то есть независимый. Значит не компания, не проект и даже не сообщество, а сам автор как есть. Цель этого списка — поддержать независимых авторов на их собственных платформах, познакомить их с новыми читателями и подчеркнуть важность их работы для фронтенда. Поэтому в каждом названии имя автора, а в списке не хватает многих хороших проектов, которые сложно назвать инди.",
-  "main": "build.js",
+  "private": true,
   "scripts": {
     "build": "node build.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/web-standards-ru/indie-list.git"
-  },
-  "bugs": {
-    "url": "https://github.com/web-standards-ru/indie-list/issues"
-  },
-  "homepage": "https://github.com/web-standards-ru/indie-list#readme",
-  "dependencies": {
+  "devDependencies": {
     "xml": "^1.0.1"
   }
 }
