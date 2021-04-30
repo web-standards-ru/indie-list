@@ -4,6 +4,7 @@
     "build": "node build.js"
   },
   "devDependencies": {
+    "fs-extra": "^9.1.0",
     "xml": "^1.0.1"
   }
 }
