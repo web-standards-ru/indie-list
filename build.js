@@ -1,12 +1,59 @@
 const xml = require("xml");
 const fs = require('fs-extra');
 
+const ENCODING = 'UTF-8';
 const DATA_PATH = 'README.md'
 const FEEDS_PATH = 'feeds.opml'
+const FEEDS_LANG_PATH = (lang) => `feeds.${lang}.opml`
 
 const RE = {
   GROUP_LANG: /## ([\wа-яё]+)/gmi,
   FEED: /^- \[(?<name>.+)\]\((?<url>.+)\), \[RSS\]\((?<rss>.+)\)$/gm,
+}
+
+const TEMPLATES = {
+  FEED: (data, lang) => {
+    return {
+      outline: [
+        {
+          _attr: {
+            title: data.name,
+            lang: lang,
+            htmlUrl: data.url,
+            xmlUrl: data.rss,
+            category: lang,
+            type: 'rss',
+          }
+        },
+      ]
+    };
+  },
+
+  LANG: (data, lang) => {
+    return {
+      outline: [
+        { _attr: { text: lang, category: lang, } },
+        ...data
+      ]
+    };
+
+  },
+
+  MAIN: (data) => xml([{
+    opml: [
+      { _attr: { version: '2.0' } },
+      {
+        head: [
+          { title: 'Список инди-сайтов сообщества "Веб-стандарты"' },
+          { dateCreated: (new Date(2021, 3, 13, 1, 46, 34)).toISOString() },
+          { dateModified: (new Date()).toISOString() },
+          { ownerName: "web-standarts" },
+          { ownerEmail: "hi@web-standarts.ru" },
+        ],
+      },
+      { body: data }
+    ]
+  }], { declaration: true })
 }
 
 const LANGUAGES = {
@@ -28,52 +75,27 @@ function split(string, regexp) {
 }
 
 async function main() {
-  const readme = await fs.readFile(DATA_PATH, 'utf-8');
+  const readme = await fs.readFile(DATA_PATH, ENCODING);
   const regex = RE.GROUP_LANG
   let langs = split(readme, regex);
-  const result = []
+  const result = [];
+  const allFeeds = [];
 
   for (let langRE of langs) {
     let lang = LANGUAGES[langRE[1]] || LANGUAGES.default;
     let text = readme.substr(langRE.index + langRE[0].length).trim()
-    result.push(
-      {
-        outline: [
-          { _attr: { text: lang } },
-          ...split(text, RE.FEED).map(data => {
-            let d = data.groups;
-            return {
-              outline: [
-                { _attr: { text: d.name, lang: lang, htmlUrl: d.url, xmlUrl: d.rss, type: 'rss' } },
-              ]
-            }
-          })
-        ]
-      }
-    )
+    feeds = split(text, RE.FEED).map(data => TEMPLATES.FEED(data.groups, lang))
+    allFeeds.push(...feeds);
+    result.push(TEMPLATES.LANG(feeds, lang));
+    let path = FEEDS_LANG_PATH(lang)
+    await fs.writeFile(path, TEMPLATES.MAIN(feeds), { encoding: ENCODING })
+    console.log(`Saved '${lang}' to '${path}'`);
   }
 
-  return await fs.writeFile(FEEDS_PATH, xml([{
-    opml: [
-      { _attr: { version: '2.0' } },
-      {
-        head: [
-          { title: 'Список инди-сайтов сообщества "Веб-стандарты"' },
-          { dateCreated: (new Date(2021, 3, 13, 1, 46, 34)).toISOString() },
-          { dateModified: (new Date()).toISOString() },
-          { ownerName: "web-standarts" },
-          { ownerEmail: "hi@web-standarts.ru" },
-          { expansionState: true },
-          { vertScrollState: 1 },
-          { windowTop: 61 },
-          { windowLeft: 304 },
-          { windowBottom: 562 },
-          { windowRight: 842 },
-        ],
-      },
-      { body: result }
-    ]
-  }], { declaration: true }));
+  await fs.writeFile(FEEDS_PATH, TEMPLATES.MAIN(result), { encoding: ENCODING })
+  console.log('Saved default feeds');
+  await fs.writeFile(FEEDS_LANG_PATH('flat'), TEMPLATES.MAIN(allFeeds), { encoding: ENCODING })
+  console.log('Saved flatten feeds');
 };
 
 main()
