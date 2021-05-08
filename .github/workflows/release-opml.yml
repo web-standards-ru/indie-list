@@ -35,9 +35,12 @@ jobs:
         files: |
           feeds.opml
           feeds.*.opml
+          README.md
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - uses: EndBug/add-and-commit@v7
       with:
-        add: README.md
+        add: |
+          feeds.opml
+          feeds.*.opml
         message: 'Update at ${{ steps.date.outputs.date }}'

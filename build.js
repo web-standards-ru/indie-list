@@ -62,7 +62,7 @@ const LANGUAGES = {
   default: "undefined"
 }
 
-function split(string, regexp) {
+function getAllByRegexp(string, regexp) {
   let m;
   const res = [];
   while ((m = regexp.exec(string)) !== null) {
@@ -77,16 +77,28 @@ function split(string, regexp) {
 async function main() {
   const readme = await fs.readFile(DATA_PATH, ENCODING);
   const regex = RE.GROUP_LANG
-  let langs = split(readme, regex);
+  let langs = getAllByRegexp(readme, regex);
   const result = [];
   const allFeeds = [];
+  let raw_text = readme.split(RE.GROUP_LANG).slice(1)
+  let rawData = []
+  console.log(raw_text);
 
-  for (let langRE of langs) {
-    let lang = LANGUAGES[langRE[1]] || LANGUAGES.default;
-    let text = readme.substr(langRE.index + langRE[0].length).trim()
-    feeds = split(text, RE.FEED).map(data => TEMPLATES.FEED(data.groups, lang))
+  for (let i = 0; i < raw_text.length; i += 2) {
+    rawData.push({
+      lang: LANGUAGES[raw_text[i]],
+      normalLang: raw_text[i],
+      text: raw_text[i + 1].trim(),
+    })
+  }
+
+  for (let data of rawData) {
+    let {lang, normalLang, text} = data
+
+    feeds = getAllByRegexp(text, RE.FEED).map(data => TEMPLATES.FEED(data.groups, lang));
+    console.log(feeds);
     allFeeds.push(...feeds);
-    result.push(TEMPLATES.LANG(feeds, lang));
+    result.push(TEMPLATES.LANG(feeds, normalLang));
     let path = FEEDS_LANG_PATH(lang)
     await fs.writeFile(path, TEMPLATES.MAIN(feeds), { encoding: ENCODING })
     console.log(`Saved '${lang}' to '${path}'`);
