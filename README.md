@@ -66,6 +66,7 @@
 - [Nolan Lawson](https://nolanlawson.com/), [RSS](https://nolanlawson.com/feed/)
 - [Rachel Andrew](https://rachelandrew.co.uk/archives/), [RSS](https://rachelandrew.co.uk/archives/rss.php)
 - [Reed Barger](https://reedbarger.com/), [RSS](https://reedbarger.com/rss/)
+- [Rich Haines](https://richardhaines.dev/), [RSS](https://richardhaines.dev/rss.xml)
 - [Sara Soueidan](https://www.sarasoueidan.com/blog/), [RSS](https://www.sarasoueidan.com/blog/index.xml)
 - [Sarah L. Fossheim](https://fossheim.io/writing/), [RSS](https://fossheim.io/feed.xml)
 - [Simon Hearne](https://simonhearne.com/), [RSS](https://simonhearne.com/feed.xml)
