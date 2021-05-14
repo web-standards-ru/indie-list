@@ -42,7 +42,7 @@
 - [Bruce Lawson](https://www.brucelawson.co.uk/), [RSS](https://www.brucelawson.co.uk/feed/)
 - [Chen Hui Jing](https://chenhuijing.com/), [RSS](https://chenhuijing.com/feed.xml)
 - [Chris Ferdinandi](https://gomakethings.com/articles/), [RSS](https://gomakethings.com/feed/index.xml)
-- [Catalin Pit](https://catalins.tech/),[RSS](https://catalins.tech/rss.xml)
+- [Catalin Pit](https://catalins.tech/), [RSS](https://catalins.tech/rss.xml)
 - [Dan Abramov](https://overreacted.io/), [RSS](https://overreacted.io/rss.xml)
 - [Dmitri Pavlutin](https://dmitripavlutin.com/), [RSS](https://dmitripavlutin.com/rss.xml)
 - [Dwayne Lafleur](https://www.lafoo.com/), [RSS](https://www.lafoo.com/feed/)
