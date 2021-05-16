@@ -2,3 +2,5 @@ node_modules/
 .vscode/
 *.py
 _dest/
+.idea/
+.DS_Store
