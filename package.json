@@ -2,7 +2,8 @@
   "private": true,
   "main": "build.js",
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js",
+    "deploy": "rsync --archive --compress --delete *.opml wst@web-standards.ru:/var/www/web-standards.ru/indie/"
   },
   "devDependencies": {
     "fs-extra": "^9.1.0",
