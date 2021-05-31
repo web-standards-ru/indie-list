@@ -54,6 +54,7 @@
 - [Joshua Comeau](https://www.joshwcomeau.com/), [RSS](https://www.joshwcomeau.com/rss.xml)
 - [Kent C. Dodds](https://kentcdodds.com/), [RSS](https://kentcdodds.com/blog/rss.xml)
 - [Kitty Giraudel](https://kittygiraudel.com/blog/), [RSS](https://kittygiraudel.com/rss)
+- [Kyle Cook](https://blog.webdevsimplified.com/), [RSS](https://blog.webdevsimplified.com/rss.xml)
 - [Lea Verou](https://lea.verou.me/), [RSS](https://lea.verou.me/feed/)
 - [Léonie Watson](https://tink.uk/), [RSS](https://tink.uk/feed.xml)
 - [Manuel Matuzović](https://www.matuzo.at/), [RSS](https://www.matuzo.at/feed_all.xml)
