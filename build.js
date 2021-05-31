@@ -79,7 +79,6 @@ async function main() {
   const regex = RE.GROUP_LANG
   let langs = getAllByRegexp(readme, regex);
   const result = [];
-  const allFeeds = [];
   let raw_text = readme.split(RE.GROUP_LANG).slice(1)
   let rawData = []
   console.log(raw_text);
@@ -97,7 +96,6 @@ async function main() {
 
     feeds = getAllByRegexp(text, RE.FEED).map(data => TEMPLATES.FEED(data.groups, lang));
     console.log(feeds);
-    allFeeds.push(...feeds);
     result.push(TEMPLATES.LANG(feeds, normalLang));
     let path = FEEDS_LANG_PATH(lang)
     await fs.writeFile(path, TEMPLATES.MAIN(feeds), { encoding: ENCODING })
@@ -106,8 +104,6 @@ async function main() {
 
   await fs.writeFile(FEEDS_PATH, TEMPLATES.MAIN(result), { encoding: ENCODING })
   console.log('Saved default feeds');
-  await fs.writeFile(FEEDS_LANG_PATH('flat'), TEMPLATES.MAIN(allFeeds), { encoding: ENCODING })
-  console.log('Saved flatten feeds');
 };
 
 main()
