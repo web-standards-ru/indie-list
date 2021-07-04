@@ -34,6 +34,7 @@
 - [Alex Russell](https://infrequently.org/), [RSS](https://infrequently.org/feed/)
 - [Anton Gunnarsson](https://antongunnarsson.com/posts), [RSS](https://antongunnarsson.com/rss.xml)
 - [Andy Bell](https://piccalil.li/), [RSS](https://piccalil.li/feed.xml)
+- [Artem Zubkov](https://blog.artzub.com), [RSS](https://medium.com/feed/@artzub)
 - [Austin Gil](https://austingil.com/), [RSS](https://austingil.com/feed/)
 - [Barry Pollard](https://www.tunetheweb.com/blog/), [RSS](https://www.tunetheweb.com/rss.xml)
 - [Ben Frain](https://benfrain.com/blog/), [RSS](https://benfrain.com/feed)
