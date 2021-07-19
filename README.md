@@ -24,6 +24,7 @@
 - [Саша Мышов](https://defront.ru/), [RSS](https://defront.ru/feed/feed.xml)
 - [София Валитова](https://ariarzer.dev/), [RSS](https://ariarzer.dev/rss.xml)
 - [Софья Ильинова](https://isqua.ru/blog/), [RSS](https://isqua.ru/blog/rss/)
+- [Татьяна Фокина](https://tatiana-fokina-blog.ru), [RSS](https://tatiana-fokina-blog.ru/feed.xml)
 - [Юля Бухвалова](http://css.yoksel.ru/), [RSS](http://css.yoksel.ru/feed.xml)
 
 ## Англоязычные
