@@ -39,7 +39,7 @@
 - [Austin Gil](https://austingil.com/), [RSS](https://austingil.com/feed/)
 - [Barry Pollard](https://www.tunetheweb.com/blog/), [RSS](https://www.tunetheweb.com/rss.xml)
 - [Ben Frain](https://benfrain.com/blog/), [RSS](https://benfrain.com/feed)
-- [Brad Frost](https://bradfrost.com/blog/), [RSS](https://nolanlawson.com/feed/)
+- [Brad Frost](https://bradfrost.com/blog/), [RSS](https://bradfrost.com/blog/feed/)
 - [Bramus Van Damme](https://www.bram.us/), [RSS](https://www.bram.us/feed/)
 - [Bruce Lawson](https://www.brucelawson.co.uk/), [RSS](https://www.brucelawson.co.uk/feed/)
 - [Chen Hui Jing](https://chenhuijing.com/), [RSS](https://chenhuijing.com/feed.xml)
