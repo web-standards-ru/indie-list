@@ -28,12 +28,14 @@
 
 - [Александр Моргунов](https://amorgunov.com/), [RSS](https://amorgunov.com/feed/feed.xml)
 - [Андрей Романов](https://forweb.dev/ru/blog), [RSS](https://forweb.dev/ru/blog/feed.xml)
+- [Антон Ларичев](https://purpleschool.ru/blog), [RSS](https://purpleschool.ru/rss.xml)
 - [Виктор Павлов](https://www.master-web.info/), [RSS](https://www.master-web.info/feed/)
 - [Марат Таналин](https://tanalin.com/blog/), [RSS](https://tanalin.com/blog/feeds/rss/)
 - [Саша Беспоясов](https://bespoyasov.ru/blog/), [RSS](https://bespoyasov.ru/rss.xml)
 - [Саша Мышов](https://defront.ru/), [RSS](https://defront.ru/feed/feed.xml)
 - [София Валитова](https://ariarzer.dev/), [RSS](https://ariarzer.dev/rss.xml)
 - [Софья Ильинова](https://isqua.ru/blog/), [RSS](https://isqua.ru/blog/rss/)
+- [Татьяна Фокина](https://tatiana-fokina-blog.ru), [RSS](https://tatiana-fokina-blog.ru/feed.xml)
 - [Юля Бухвалова](http://css.yoksel.ru/), [RSS](http://css.yoksel.ru/feed.xml)
 
 ## Англоязычные
@@ -47,7 +49,7 @@
 - [Austin Gil](https://austingil.com/), [RSS](https://austingil.com/feed/)
 - [Barry Pollard](https://www.tunetheweb.com/blog/), [RSS](https://www.tunetheweb.com/rss.xml)
 - [Ben Frain](https://benfrain.com/blog/), [RSS](https://benfrain.com/feed)
-- [Brad Frost](https://bradfrost.com/blog/), [RSS](https://nolanlawson.com/feed/)
+- [Brad Frost](https://bradfrost.com/blog/), [RSS](https://bradfrost.com/blog/feed/)
 - [Bramus Van Damme](https://www.bram.us/), [RSS](https://www.bram.us/feed/)
 - [Bruce Lawson](https://www.brucelawson.co.uk/), [RSS](https://www.brucelawson.co.uk/feed/)
 - [Chen Hui Jing](https://chenhuijing.com/), [RSS](https://chenhuijing.com/feed.xml)
