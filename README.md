@@ -84,3 +84,4 @@
 - [Una Kravets](https://una.im/), [RSS](https://una.im/feed.xml)
 - [Varun Vachhar](https://varun.ca/), [RSS](https://varun.ca/rss.xml)
 - [Zach Leatherman](https://www.zachleat.com/), [RSS](https://www.zachleat.com/web/feed/)
+- [Kyle Shevlin](https://kyleshevlin.com/), [RSS](https://kyleshevlin.com/rss.xml)
