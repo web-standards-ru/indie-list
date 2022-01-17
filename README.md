@@ -20,6 +20,7 @@
 - [Андрей Романов](https://forweb.dev/ru/blog), [RSS](https://forweb.dev/ru/blog/feed.xml)
 - [Антон Ларичев](https://purpleschool.ru/blog), [RSS](https://purpleschool.ru/rss.xml)
 - [Виктор Павлов](https://www.master-web.info/), [RSS](https://www.master-web.info/feed/)
+- [Максим Павлов](https://maximpavlov.su/), [RSS](https://maximpavlov.su/rss.xml)
 - [Марат Таналин](https://tanalin.com/blog/), [RSS](https://tanalin.com/blog/feeds/rss/)
 - [Саша Беспоясов](https://bespoyasov.ru/blog/), [RSS](https://bespoyasov.ru/rss.xml)
 - [Саша Мышов](https://defront.ru/), [RSS](https://defront.ru/feed/feed.xml)
