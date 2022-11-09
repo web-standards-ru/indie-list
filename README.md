@@ -17,6 +17,7 @@
 ## Русскоязычные
 
 - [Александр Моргунов](https://amorgunov.com/), [RSS](https://amorgunov.com/feed/feed.xml)
+- [Алексей Ильинов](https://isqua.ru/blog/), [RSS](https://isqua.ru/blog/rss/)
 - [Андрей Романов](https://forweb.dev/ru/blog), [RSS](https://forweb.dev/ru/blog/feed.xml)
 - [Антон Ларичев](https://purpleschool.ru/blog), [RSS](https://purpleschool.ru/rss.xml)
 - [Виктор Павлов](https://www.master-web.info/), [RSS](https://www.master-web.info/feed/)
@@ -25,7 +26,6 @@
 - [Саша Беспоясов](https://bespoyasov.ru/blog/), [RSS](https://bespoyasov.ru/rss.xml)
 - [Саша Мышов](https://defront.ru/), [RSS](https://defront.ru/feed/feed.xml)
 - [София Валитова](https://ru.ariarzer.dev/), [RSS](https://ru.ariarzer.dev/rss.xml)
-- [Софья Ильинова](https://isqua.ru/blog/), [RSS](https://isqua.ru/blog/rss/)
 - [Татьяна Фокина](https://tatiana-fokina-blog.ru), [RSS](https://tatiana-fokina-blog.ru/feed.xml)
 - [Юля Бухвалова](http://css.yoksel.ru/), [RSS](http://css.yoksel.ru/feed.xml)
 
